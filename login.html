@@ -1,0 +1,62 @@
+<html>
+<head><title>Login Quiz</title>
+<style>
+h1{font-family: 'Open Sans', Arial, Helvetica, sans-serif;}
+h2{font-family:Courier;}
+#login {  height:900px;
+          float:right;
+          margin: 10px auto;  
+          width: 900px;
+          
+       }
+input[type="button"] {  background-color: red; 
+ border: none;  border-radius: 3px;
+  color: white; 
+  cursor:pointer; 
+  height: 50px; 
+  font-size:40px;
+ text-transform: uppercase; }
+ input[type="password"] { 
+ font-size=30em; 
+ width="60";
+  color: black;  
+  height: 50px; }
+ input[type="text"] { 
+ font-size=30em; 
+ width="60";
+  color: black;  
+  height: 50px; }
+
+</style>
+</head>
+<body bgcolor="white">
+<img src="pic.jpg" width="800" height="800">
+<font size="20">
+<div id=login>
+<h1><b><font color="red">WELCOME</font></b></h1>
+<hr>
+<h2> Please Login</h2>
+
+<form>
+<fieldset>
+USERNAME<input type="text" size=20 value="Username"
+onBlur="if(this.value=='')this.value='Username'" 
+onFocus="if(this.value=='Username')this.value='' ">
+<br>
+E-MAIL ID<input type="text" size=18>
+<br>
+RECEIPT NUMBER
+<input type="text" size=12>
+<br>
+MOBILE NUMBER
+<input type="text" size=12 ><br>
+PASSWORD<input type="password" size=18 value="Password"
+ onBlur="if(this.value=='')this.value='Password'"
+ onFocus="if(this.value=='Password')this.value='' ">
+</fieldset>
+<br>
+<a href="quest1original.html"><input type="button" value="Login"></a>
+<br> </center> 
+</form>
+</body>
+</html>
