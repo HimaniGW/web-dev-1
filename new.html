@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image:url("2.jpg");
+	background-color: black;
+	color: white;
+	text-shadow: 4px 4px 6px navy; 
+}
+h1{
+	color :white;
+text-shadow: 4px 4px 6px navy;  
+}
+{
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px;
+    background-color: ECECF3;
+}
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: #f1f1f1;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 4px;
+}
+}
+
+input[type=text],input[type=password]:focus {
+    background-color: grey;
+}
+
+.registerbtn {
+    background-color:#090468   ;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 18%;
+    opacity: 0.9;
+     box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+{
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: white;
+    outline: none;
+}
+
+</style>
+</head>
+<body>
+<form action="/action_page.php">
+  <div class="container">
+<center>
+
+
+<img src="4.png" alt="logo" width="300" height="300">
+
+
+    <h1>Register</h1>
+    
+
+    <label for="login"><b>Login Id</b></label><br>
+    <input type="text" placeholder="Enter Login Id" name="login" required>
+	<br>
+    <label for="psw"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <br>
+
+    <button type="submit" class="registerbtn"><b>Register</b></button>
+</center>
+  </div>
+</body>
+</html>
